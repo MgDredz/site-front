@@ -1,0 +1,15 @@
+{
+  "name": "site-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/MgDredz/site-front",
+  "scripts": {
+    "predeploy": "echo 'Skip build porque já tens dist'",
+    "deploy": "gh-pages -d front/dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
